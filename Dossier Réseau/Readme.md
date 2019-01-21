@@ -69,3 +69,7 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 
 ***#3. Firewall***
 ******************
+nothing
+
+
+### III. Routage statique
