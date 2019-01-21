@@ -1,11 +1,13 @@
 <meta charset="UTF-8">
 <p> Mathis BIANCO B1A </p> 
 <p> Sacha Sallès </p> 
-<p> Fred </p> 
+
 **B1-Réseau-2018 TP3**
 -----------------
+
 #***Partie 1-4 Vue en cours*** 
 <br>
+
 ***# I.Création et utilisation simples d'une VM CentOS***
 *********************************************************
 #1.Création
