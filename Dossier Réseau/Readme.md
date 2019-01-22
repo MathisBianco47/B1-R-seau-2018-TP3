@@ -4,10 +4,10 @@
 
 **Sacha Sallès**
 
-#B1-Réseau-2018 TP3
+# B1-Réseau-2018 TP3
 -----------------
 
-##Partie 1-4 Vue en cours
+## Partie 1-4 Vue en cours
 -----------------
 
 ### I.Création et utilisation simples d'une VM CentOS
@@ -78,8 +78,8 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 `modifier le fichier`
 
 
-![alt text](Centos11.png "PING")
-![alt text](Centos11.png "PING")
+![alt text](Cent0S9.png "PING")
+![alt text](CentOS10.png "PING")
 
 
 
