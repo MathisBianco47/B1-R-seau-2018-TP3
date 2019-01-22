@@ -74,5 +74,11 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 -----------------
 #A.ASSH
 
+![alt text](CENTOS8.png "PING")
+![alt text](CENTOS8.png "PING")
+
+
+
+
 
 ### III. Routage statique
