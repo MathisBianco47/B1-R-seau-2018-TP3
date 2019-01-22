@@ -145,6 +145,11 @@ reussi !!
 
 **Check**
 -----------------
+Nous avons été sur VB dans file, Host Network Manager, puis avons configuré nos IP des réseaux Host Only.
+J'ai pris l'ip suivante `192.168.101.1`sur le réseau `192.168.101.0/24`.
+
+Modification de l'adresse IP sur la VM avec Nano.
+
 
 `reussi`
 
@@ -169,6 +174,23 @@ commande:  `sudo sysctl -w net.inet.ip.forwarding=1`
 
 ![alt text](Centos17.png "PING")
 
+**Configuration du routage**
+
+BILAN
+
+| Appareil      |  IP(s)      |
+| ------------- |-------------|
+|PC1  ----------|192.168.112.22|
+|VM1 -----------|192.168.101.10|
+|PC2 -----------|192.168.112.23|
+|VM2 -----------|192.168.102.10| 
+
+
+PC1 accède déjà aux réseaux 1 et 12, il faut juste lui dire comment accéder au réseau 2, donc j'ai tapé la commande
+`route -n add -net 192.168.102.0/24 192.168.112.2`
+
+
+
 -----------------
 
 **PC2**
@@ -192,6 +214,11 @@ commande:  `sudo sysctl -w net.inet.ip.forwarding=1`
 **VM1**
 
 ![alt text](Centos20.png "PING")
+
+## PING VM1 à VM2
+
+Nous ne sommes pas parvenus à pinguer nos deux VM, une erreurs d'IP récalcitrante (on à pas réussi à redefinir l'IP sur le centOS, il nous crachait une erreur) nous à torturée l'esprit sur mon mac, nous y étions presque. 
+Avec plus de temps nous l'aurions fait. Nous sommes sincèrement désolé.
 
 
 
