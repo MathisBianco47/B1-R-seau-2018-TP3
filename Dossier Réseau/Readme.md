@@ -166,4 +166,26 @@ commande:  `sudo sysctl -w net.inet.ip.forwarding=1`
 
 **2. Configuration du routage**
 
+
 ![alt text](Centos17.png "PING")
+
+-----------------
+
+**PC2**
+
++ PC2 devrait pouvoir ping 192.168.101.1 (l'adresse de PC1 dans 1)
+
+
+![alt text](Centos18.png "PING")
+
+-----------------
+
+
+![alt text](Centos19.png "PING")
+
+
+
+
+
+
+
