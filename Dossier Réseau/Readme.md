@@ -45,8 +45,7 @@ L'IP est indique à la fin du terminal donc "192.55.83.30" (ynov)
 
 
 # II. Notion de ports et SSH
-
-## 1. Exploration des ports locaux
+**1. Exploration des ports locaux
 -----------------
 *Commande utilisez "SS" <br>
 *commande utilisez pour vérifiez si ssh est bien installer. <br>
@@ -70,9 +69,12 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 ![alt text](CENTOS8.png "PING")
 
 
-###3. Firewall
+### 3. Firewall
 -----------------
-#A.ASSH
+**A.SSH
+
+`modifier le fichier``
+
 
 
 
@@ -80,3 +82,5 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 
 
 ### III. Routage statique
+
+
