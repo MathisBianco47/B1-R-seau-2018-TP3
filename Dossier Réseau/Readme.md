@@ -1,6 +1,8 @@
 <meta charset="UTF-8">
-<p> Mathis BIANCO B1A </p> 
-<p> Sacha Sallès </p> 
+
+**Mathis BIANCO**
+
+**Sacha Sallès**
 
 #B1-Réseau-2018 TP3
 -----------------
@@ -76,11 +78,43 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 `modifier le fichier`
 
 
+![alt text](Centos11.png "PING")
+![alt text](Centos11.png "PING")
 
 
 
 
 
 ### III. Routage statique
+-----------------
+**Pour rappel, il faut désactiver SELinux.**
+```
++ Le routage, c'est le fait d'utiliser une machine comme pivot (le routeur), entre deux réseau, afin qu'il fasse passer le trafic d'un réseau à un autre.
++ Le routage statique consiste à définir de façon simple les routes utilisables par le routeur et les machines.  
++ C'est  l'administrateur qui les définit à la main.
+```
++ sudo setenforce 0
++ modifier le fichier /etc/selinux/config
++ modifier la valeur de SELINUX à permissive
++ SELINUX=permissive
++ pour vérifier : sestatus doit afficher Current mode: permissive
+
+
+-----------------
+**0. Rappels et objectifs**
+```
++ deux PCs reliés avec un câble
++ les interfaces Ethernet des deux PCs étaient dans le même réseau pour pouvoir communiquer
++ "être dans le même réseau" c'est avoir une adresse IP dans le même réseau IP
+```
+
+![alt text](Centos11.png "PING")
+
+-----------------
+
+![alt text](Centos12.png "PING")
+
+
+
 
 
