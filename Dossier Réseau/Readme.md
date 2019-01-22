@@ -155,3 +155,15 @@ Observez vos tables de routage sur tous les hôtes, pour comprendre :
 
 ![alt text](Centos16.png "PING")
 
+-----------------
+
+**Activation du routage sur les PCs**
+
+`MacOS`
+
+-----------------
+commande:  `sudo sysctl -w net.inet.ip.forwarding=1`
+
+**2. Configuration du routage**
+
+![alt text](Centos17.png "PING")
