@@ -183,7 +183,10 @@ commande:  `sudo sysctl -w net.inet.ip.forwarding=1`
 
 ![alt text](Centos19.png "PING")
 
+-----------------
 
+
+![alt text](Centos20.png "PING")
 
 
 
