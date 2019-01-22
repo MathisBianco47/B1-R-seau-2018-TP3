@@ -71,9 +71,9 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 
 ### 3. Firewall
 -----------------
-**A.SSH
+**A.SSH**
 
-`modifier le fichier``
+`modifier le fichier`
 
 
 
