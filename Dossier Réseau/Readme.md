@@ -78,7 +78,10 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 `modifier le fichier`
 
 
-![alt text](Cent0S9.png "PING")
+![alt text](CentOS9.png "PING")
+
+-----------------
+
 ![alt text](CentOS10.png "PING")
 
 
