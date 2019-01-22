@@ -117,7 +117,41 @@ On indique cette commande pour seulement voir le port 22, il est bien "listen"
 
 ![alt text](Centos12.png "PING")
 
+### 1. Préparation des hôtes (vos PCs)
+-----------------
+
+`Préparation avec câble`
+
++ Faites en sorte que :
+
++ vos deux PCs puissent se ping à travers le câble
++ vos carte Ethernet doivent être dans le réseau 12 : 192.168.112.0/30
+
+**Préparation avec câble**
 
 
+![alt text](Centos13.png "PING")
 
+
+-----------------
+
+**Préparation VirtualBox**
+
+
+![alt text](Centos14.png "PING")
+
+j'ai modifiez mon adresse avec : `192.168.102.10`
+reussi !!
+
+**Check**
+-----------------
+
+`reussi`
+
+![alt text](Centos15.png "PING")
+
+
+Observez vos tables de routage sur tous les hôtes, pour comprendre :
+
+![alt text](Centos16.png "PING")
 
